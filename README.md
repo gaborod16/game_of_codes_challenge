@@ -1,5 +1,5 @@
 # game_of_codes_challenge
-Challenge attempt - Game of Codes
+### Challenge attempt - Game of Codes
 Read description of the problem in this [**link**](https://app.codility.com/programmers/task/three_letters_blocks/).
 
 ## Approach
@@ -49,7 +49,7 @@ With this information I am able to combine compatible paths and find the optimal
 ```
 
 I ran through the combinations using a *Breath-First-Search* algorithm. 
-**However**, the combinations grow with a complexity of `O(2**k)`.
+**However**, the combinations grow with a complexity of `O(2**k)`, where `k` is the number of paths.
 
 ### Conclusion
 
